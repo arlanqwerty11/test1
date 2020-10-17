@@ -38,14 +38,14 @@ $(document).ready(function(){
 	for(let i = 0; i<totalPortfolioItems; i++){
 		PortfolioItems[i].addEventListener("click", function(){
 			itemIndex = i;
-			togglelightbox();
+			//togglelightbox();
 		});
 	}
 
-	function togglelightbox(){
-		lightbox.classList.toggle("open");
-	}
+	//function togglelightbox(){
+	//	lightbox.classList.toggle("open");
+	//}
 	
 });
 
-
+//git remote rm origin
