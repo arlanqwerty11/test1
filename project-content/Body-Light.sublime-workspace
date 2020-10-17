@@ -1,0 +1,573 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fle",
+				"flex-wrap\tproperty"
+			],
+			[
+				"ima",
+				"images"
+			],
+			[
+				"in",
+				"inline\tdisplay"
+			],
+			[
+				"inlin",
+				"inline-block\tdisplay"
+			],
+			[
+				"border",
+				"border-radius\tproperty"
+			],
+			[
+				"border-right",
+				"border-right\tproperty"
+			],
+			[
+				"bor",
+				"border-top\tproperty"
+			],
+			[
+				"po",
+				"position\tproperty"
+			],
+			[
+				"over",
+				"overflow-x\tproperty"
+			],
+			[
+				"border-r",
+				"border-radius\tproperty"
+			],
+			[
+				"tr",
+				"transparent"
+			],
+			[
+				"border-co",
+				"border-color\tproperty"
+			],
+			[
+				"trans",
+				"transform\tproperty"
+			],
+			[
+				"fl",
+				"flex\tproperty"
+			],
+			[
+				"tran",
+				"transition\tproperty"
+			],
+			[
+				"spa",
+				"space-around\tjustify-content"
+			],
+			[
+				"dis",
+				"display\tproperty"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"out",
+				"outline\tproperty"
+			],
+			[
+				"clean",
+				"clean_css"
+			],
+			[
+				"di",
+				"direction\tproperty"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"brow",
+				"browsersync"
+			],
+			[
+				"browser",
+				"browserSync"
+			],
+			[
+				"pro",
+				"project_folder"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"font-",
+				"font-family\tproperty"
+			],
+			[
+				"paddin",
+				"padding-bottom\tproperty"
+			],
+			[
+				"paddint",
+				"padding-right\tproperty"
+			],
+			[
+				"box-",
+				"box-sizing\tproperty"
+			],
+			[
+				"t",
+				"transparent\tbackground"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"text",
+				"text-decoration-line\tproperty"
+			],
+			[
+				"text-",
+				"text-decoration\tproperty"
+			],
+			[
+				"box",
+				"box-sizing\tproperty"
+			],
+			[
+				"margin-",
+				"margin-right\tproperty"
+			],
+			[
+				"marg",
+				"margin-bottom\tproperty"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"navbar",
+				"navbarCollapse"
+			],
+			[
+				"scroll",
+				"scrollTop"
+			],
+			[
+				"tra",
+				"transition-delay\tproperty"
+			],
+			[
+				"flex-",
+				"flex-wrap\tproperty"
+			],
+			[
+				"ali",
+				"align-items\tproperty"
+			],
+			[
+				"op",
+				"opacity\tproperty"
+			],
+			[
+				"fot",
+				"font-weight\tproperty"
+			],
+			[
+				"flex",
+				"flex-direction\tproperty"
+			],
+			[
+				"spac",
+				"space-between\tjustify-content"
+			],
+			[
+				"b",
+				"both\tclear"
+			],
+			[
+				"mar",
+				"margin-bottom\tproperty"
+			],
+			[
+				"bar",
+				"border-radius\tproperty"
+			],
+			[
+				"u",
+				"uppercase\ttext-transform"
+			],
+			[
+				"padding",
+				"padding-bottom\tproperty"
+			],
+			[
+				"pa",
+				"padding\tproperty"
+			],
+			[
+				"_",
+				"__file__"
+			],
+			[
+				"PROJECT",
+				"PROJECT_ROOT"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"aut",
+				"Autoprefix CSS"
+			],
+			[
+				"Package Control:  in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:  pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:  ",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Add Repository"
+			],
+			[
+				"Package Control:  install ",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"Package Control: instalk ",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"phyth",
+				"Build With: Python - Syntax Check"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 124.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Admin/Desktop/web/2020 job/portfolio3-starter-template/project-content/text",
+		"/C/Users/Admin/Desktop/web/2020 job/portfolio3-starter-template/js/script.js",
+		"/C/Users/Admin/AppData/Roaming/Sublime Text 3/Packages/User/кцкв",
+		"/C/Users/Admin/Desktop/web/2020 job/portfolio3-starter-template/index.html",
+		"/C/Users/Admin/AppData/Roaming/Sublime Text 3/Packages/Autoprefixer/Autoprefixer.sublime-settings",
+		"/C/Users/Admin/AppData/Roaming/Sublime Text 3/Packages/User/Autoprefixer.sublime-settings",
+		"/C/Users/Admin/Desktop/python/frwerfn.css",
+		"/C/Users/Admin/Desktop/web/2020 job/portfolio3-starter-template/scss/style.css",
+		"/C/Users/Admin/Desktop/web/2020 job/portfolio3-starter-template/scss/variables.scss",
+		"/C/Users/Admin/Desktop/web/2020 job/portfolio3-starter-template/css/style.css",
+		"/C/Users/Admin/Desktop/web/2020 job/portfolio3-starter-template/css/skins/pink.css",
+		"/C/Users/Admin/Desktop/web/2020 job/project for scholl/minilanding/src/css/main.css",
+		"/C/Users/Admin/Desktop/web/2020 job/project for scholl/minilanding/src/index.html",
+		"/C/Users/Admin/Desktop/web/2020 job/project for scholl/minilanding/src/css/style.css",
+		"/C/Users/Admin/Desktop/python/main.py",
+		"/C/Users/Admin/Desktop/python/prepros.config",
+		"/C/Users/Admin/Desktop/web/2020 job/project for scholl/gulp-scss-starter/src/blocks/modules/header/header.html",
+		"/C/Users/Admin/Desktop/web/2020 job/project for scholl/gulp-scss-starter/src/views/index.html",
+		"/C/Users/Admin/Desktop/web/2020 job/alfatravel/src/index.html",
+		"/C/Users/Admin/Desktop/web/2020 job/alfatravel/src/assets/scss/style.scss",
+		"/C/Users/Admin/Desktop/web/2020 job/alfatravel/src/assets/scss/discharge.scss",
+		"/C/Users/Admin/Desktop/web/2020 job/alfatravel/src/assets/scss/variables.scss",
+		"/C/Users/Admin/Desktop/web/2020 job/alfatravel/src/assets/scss/start.scss",
+		"/C/Users/Admin/Desktop/web/2020 job/alfatravel/src/assets/css/style.css",
+		"/C/Users/Admin/Desktop/web/2020 job/alfatravel/src/assets/js/main.js",
+		"/C/Users/Admin/Desktop/web/2020 job/project_3/agents/src/assets/scss/style.scss",
+		"/C/Users/Admin/Desktop/web/2020 job/project_3/agents/src/index.html",
+		"/C/Users/Admin/Desktop/web/2020 job/project_3/agents/src/assets/js/script.js",
+		"/C/Users/Admin/Desktop/web/2020 job/project_3/agents/src/assets/css/style.css",
+		"/C/Users/Admin/Desktop/python/some.txt",
+		"/C/Users/Admin/Desktop/web/2020 job/project_2/mogo/src/index.html",
+		"/C/Users/Admin/Desktop/web/2020 job/project_2/mogo/src/assets/scss/style.scss",
+		"/C/Users/Admin/Desktop/web for school/pr4/index.html",
+		"/C/Users/Admin/Desktop/web for school/pr4/top.html",
+		"/C/Users/Admin/Desktop/python/info.py",
+		"/C/Users/Admin/Desktop/python/main.html",
+		"/C/Users/Admin/Desktop/web for school/pr3/1.html",
+		"/C/Users/Admin/Desktop/web for school/pr3/index.html",
+		"/C/Users/Admin/Desktop/web/2020 job/project_2/mogo/src/assets/js/script.js",
+		"/C/Users/Admin/Desktop/web/2020 job/ewifjr.html",
+		"/C/Users/Admin/Desktop/web/2020 job/more/slike/main.js",
+		"/C/Users/Admin/Desktop/web/2020 job/more/slide.css",
+		"/C/Users/Admin/Desktop/web/2020 job/project_2/mogo/src/assets/css/user.css",
+		"/C/Users/Admin/Desktop/web/2020 job/project_2/mogo/src/assets/css/style.css",
+		"/C/Users/Admin/Desktop/web/2020 job/project_2/mogo/src/assets/css/fonts.css",
+		"/C/Users/Admin/Desktop/web/2020 job/project_2/mogo/src/css/style.css",
+		"/C/Users/Admin/Desktop/web/2020 job/project_2/mogo/src/scss/style.scss",
+		"/C/Users/Admin/Desktop/web/2020 job/project_2/mogo/src/js/script.js",
+		"/C/Users/Admin/Desktop/web for school/test/pr1/css/main.css",
+		"/C/Users/Admin/Desktop/web for school/test/pr1/css/style.css",
+		"/C/Users/Admin/Desktop/web for school/test/pr1/index.html",
+		"/C/Users/Admin/Desktop/web for school/test/pr1/src/css/main.css",
+		"/C/Users/Admin/Desktop/web for school/test/pr1/src/scss/main.scss",
+		"/C/Users/Admin/Desktop/web for school/test/pr1/src/index.html",
+		"/C/Users/Admin/Desktop/web for school/pr2/src/css/main.css",
+		"/C/Users/Admin/Desktop/web for school/pr2/src/index.html",
+		"/C/Users/Admin/Desktop/web for school/be on - max/project 1/css/style.css",
+		"/C/Users/Admin/Desktop/web for school/be on - max/project 1/scss/style.scss",
+		"/C/Users/Admin/Desktop/web for school/be on - max/project 1/index.html",
+		"/C/Users/Admin/Desktop/web for school/be on - max/project 1/sass/style.sass",
+		"/C/Users/Admin/Desktop/web for school/be on - max/project 1/js/main.js",
+		"/C/Users/Admin/Desktop/web for school/pr1/index.html",
+		"/C/Users/Admin/Desktop/web for school/pr1/main.css",
+		"/C/Users/Admin/Desktop/web for school/pr1/js/main.js",
+		"/C/Users/Admin/Desktop/web/2020 job/more/gulp.txt/gulp.txt",
+		"/C/Users/Admin/AppData/Roaming/Sublime Text 3/Packages/User/main.css",
+		"/C/Users/Admin/AppData/Roaming/Sublime Text 3/Packages/User/index.html",
+		"/C/Users/Admin/Desktop/web/2020 job/more/базовый шаблон/index.html",
+		"/C/Users/Admin/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Admin/Desktop/web/2020 job/project_1/internet shop/gulp-scss-starter/src/blocks/modules/header/header.scss",
+		"/C/Users/Admin/Desktop/web/2020 job/project_1/internet shop/gulp-scss-starter/src/blocks/modules/header/header.html",
+		"/C/Users/Admin/Desktop/web/2020 job/project_1/internet shop/gulp-scss-starter/src/styles/main.scss",
+		"/C/Users/Admin/Desktop/web/2020 job/project_1/internet shop/gulp-scss-starter/src/views/index.html",
+		"/C/Users/Admin/Desktop/web/2020 job/project_1/internet shop/gulp-scss-starter/src/styles/main.css",
+		"/C/Users/Admin/Desktop/web/2020 job/project_1/internet shop/gulp-scss-starter/src/styles/main",
+		"/C/Users/Admin/Desktop/web/2020 job/project_1/internet shop/gulp-scss-starter/dist/404.html",
+		"/C/Users/Admin/Desktop/web/2020 job/project_1/internet shop/gulp-scss-starter/dist/index.html",
+		"/C/Users/Admin/Desktop/web/2020 job/project_1/internet shop/gulp-scss-starter/src/blocks/modules/main__html/main__html.css",
+		"/C/Users/Admin/Desktop/web/2020 job/project_1/internet shop/gulp-scss-starter/src/blocks/modules/footer/footer.html",
+		"/C/Users/Admin/Desktop/web/2020 school/for fizmat/project 1/css/main.css",
+		"/C/Users/Admin/Desktop/web/2020 school/for fizmat/project 1/index.html",
+		"/C/Users/Admin/Desktop/web/2020 job/project_1/internet shop/gulp-scss-starter/src/js/index.js",
+		"/C/Users/Admin/Desktop/web/2020 job/project_1/internet shop/gulp-scss-starter/src/fonts/.gitkeep",
+		"/C/Users/Admin/Desktop/web/2020 job/project_1/internet shop/gulp-scss-starter/src/blocks/_modules.scss",
+		"/C/Users/Admin/Desktop/web/2020 job/project_1/internet shop/assets/index.html",
+		"/C/Users/Admin/Desktop/web/2020 job/project_1/internet shop/gulpfile.js",
+		"/C/Users/Admin/Desktop/web/2020 job/project_1/internet shop/#index.html",
+		"/C/Users/Admin/Desktop/web/2020 job/project_1/internet shop/assets/js/main.js",
+		"/C/Users/Admin/Desktop/web/2020 job/project_1/internet shop/#footer.html",
+		"/C/Users/Admin/Desktop/web/2020 job/project_1/internet shop/#header.html",
+		"/C/Users/Admin/Desktop/web/2020 job/project_1/internet shop/assets/scss/style.scss",
+		"/C/Users/Admin/Desktop/web/2020 job/project_1/internet shop/assets/css/style.css",
+		"/C/Users/Admin/Desktop/web/2020 school/for test/project1/scss/style.scss",
+		"/C/Users/Admin/Desktop/web/2020 school/for test/project1/scss/help.scss",
+		"/C/Users/Admin/Desktop/web/2020 school/for test/project1/css/style.css",
+		"/C/Users/Admin/Desktop/web/2020 school/for test/project1/index.html",
+		"/C/Users/Admin/Desktop/python/гогушаоукшашгю.py",
+		"/C/Users/Admin/Desktop/web/2020 school/for test/project1/js/main.js",
+		"/C/Users/Admin/Desktop/web/2020 school/for test/project2/index.html",
+		"/C/Users/Admin/Desktop/web/2020 school/for test/project2/scss/style.scss",
+		"/C/Users/Admin/Desktop/web/2020 school/for test/project2/css/style.css",
+		"/C/Users/Admin/Desktop/web/2020 school/for test/project2/assets/css/style.css",
+		"/C/Users/Admin/Desktop/web/2020 job/базовый шаблон/main.css",
+		"/C/Users/Admin/Desktop/web/2020 school/for test/scss/style.scss",
+		"/C/Users/Admin/Desktop/web/2020 school/for test/css/style.css",
+		"/C/Users/Admin/Desktop/python/project_1/python1.py",
+		"/C/Users/Admin/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/C/Users/Admin/Desktop/web/2020/project1/scss/style.scss",
+		"/C/Users/Admin/Desktop/web/2020/project1/index.html",
+		"/C/Users/Admin/Desktop/web/2020/project1/css/style.css",
+		"/C/Users/Admin/Desktop/web/2020/project1/internet shop/assets/css/main.css",
+		"/C/Users/Admin/Desktop/web/2020/project1/internet shop/assets/scss/main.scss",
+		"/C/Users/Admin/Desktop/web/2020/project1/internet shop/index.html",
+		"/C/Users/Admin/Desktop/web/2020 school/for fizmat/main.css",
+		"/C/Users/Admin/Desktop/web/2020 school/for fizmat/index.html",
+		"/C/Users/Admin/Desktop/web/2020/project1/internet shop/main.css",
+		"/C/Users/Admin/Desktop/web/2020 school/for test/test1/index.html",
+		"/C/Users/Admin/Desktop/web/2020 school/for test/test1/main.scss",
+		"/C/Users/Admin/Desktop/web/2020 school/for test/test1/main.css",
+		"/C/Users/Admin/Desktop/web/2020/project1/internet shop/assets/css/main.scss",
+		"/C/Users/Admin/Desktop/web/2020/project1/internet shop/assets/js/main.js",
+		"/C/Users/Admin/Desktop/web/2020/project1/internet shop/css/main.css",
+		"/C/Users/Admin/Desktop/web/2020/project1/internet shop/main.scss",
+		"/C/Users/Admin/Desktop/web/2020 school/for testing/#source/css/main.css",
+		"/C/Users/Admin/Desktop/web/2020 school/for testing/index.html",
+		"/C/Users/Admin/Desktop/web/2020 school/for testing/#source/scss/main.scss",
+		"/C/Users/Admin/Desktop/web/2020 school/for testing/css/main.css",
+		"/C/Users/Admin/Desktop/web/2020 school/for testing/#source/css/main.scss"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 104.8,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 48.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "Body-Light.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"kinomonster bootstrap\\assets\\css\\style.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 242.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
