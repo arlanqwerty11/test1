@@ -1,10 +1,10 @@
-
- /*Font Awesome Free Icon*/
+/*Font Awesome Free Icon*/
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 /*General style*/
 @import 'variables.scss';
 @import 'keyframes.scss';
+@import 'media.css';
 body{
 	margin: 0;
 	line-height: 1.5;
@@ -35,6 +35,8 @@ button::-moz-focus-inner{padding: 0; border: 0;}
 a,a:visited{text-decoration: none;}
 ul li{list-style: none;}
 img{vertical-align: top;}
+
+
 .container{
 	max-width: 1100px;
 	width: 100%;
@@ -86,12 +88,7 @@ img{vertical-align: top;}
 	top: 0px;
 	left: -10px;
 }
-.aside .by p{
-	font-size: 17px;
-	color: $red;
-	font-family: $font;
 
-}
 
 .shadow{
 	box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
@@ -127,13 +124,13 @@ nav ul li{
 	transition: all 0.1s ease;
 }
 nav ul li a:hover{
-	color: #ec1839;
+	color: $red;
 }
 .active{
-	color: #ec1839;
+	color: $red;
 }
 nav ul li a.active{
-	color: #ec1839;
+	color: $red;
 }
 .aside .copyright__text{
 	font-size: 13px;
@@ -153,7 +150,6 @@ nav ul li a.active{
 	left: 300px;
 	display: flex;
 	justify-content: center;
-	/*display none*/
 	display: none;
 }
 .aside .nav__burger span{
@@ -166,12 +162,12 @@ nav ul li a.active{
 	top: 50%;
 	transform: translateY(-50%);
 }
-.aside .nav__burger span:before,.aside .nav__burger span:after{
+.aside .nav__burger span:before, .aside .nav__burger span:after{
 	content:'';
 	display: block;
 	height: 2px;
 	width: 16px;
-	background-color: red;
+	background-color: $red;
 	position: absolute;
 	left:0;
 }
@@ -189,72 +185,7 @@ nav ul li a.active{
 	display: flex;
 }
 
-.home .intro{
-	text-align: center;
-	h1{
-		color: #312e4d;
-		font-family: 'Rubik', sans-serif;
-		font-weight: 700;
-		margin: 20px 0 5px;
-	}
-	p{
-		font-size: 16px;
-		font-weight: 500;
-		margin: 0;
-		line-height: 22px;
-		color: #504e70;
-	}
-	.intro__btn{
-		margin: 0 auto;
-		display: inline-block;
-		padding:  10px 25px;
-		border: 1px solid #ec1839;
-		margin-top: 60px;
-		border-radius: 50px;
-		background-color: $red;
-		cursor: pointer;
 
-		a{
-			text-transform: uppercase;
-			color: #ffffff;
-			font-family: $font;
-		}
-
-	}
-	.intro__btn:hover{
-		transition: all 0.05s ease;
-		transform: scale(1.02);
-		box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
-	}
-	.social__link{
-		margin-top: 25px;
-		a{
-			background-color: #ec1839;
-			height: 35px;
-			width: 35px;
-			display: inline-block;
-			text-align: center;
-			line-height: 35px;
-			color: #ffffff;
-			margin: 0 4px;
-			border-radius: 50%;
-			text-decoration-line: none;
-			transition: all 0.3s ease;
-		}
-		a:hover{
-			transform: scale(1.1);
-		}
-	}
-
-}
-
-.home .intro img{
-	height: 200px;
-	width: 200px;
-	border-radius: 50%;
-	display: inline-block;
-	border: 8px solid #ffffff;
-}
 section .container{
 	padding-top: 60px;
 	.title{
@@ -382,13 +313,14 @@ section .container{
 			cursor: pointer;
 			width: 32%;
 			margin-bottom: 10px;
+			height: auto;
 			.main__inner{
 				position: relative;
+				height: 80%;
+				overflow: hidden;
+				border: 6px solid #fdf9ff;
+				border-radius: 10px;
 				.main__img{
-					height: 250px;
-					overflow: hidden;
-					border: 6px solid #fdf9ff;
-					border-radius: 10px;
 					img{
 						width: 100%;
 						box-shadow: 0 0 20px rgba(48,46,77,0.15);
@@ -404,13 +336,13 @@ section .container{
 						color: #ffffff;
 						word-spacing: 30px;
 						text-transform: capitalize;
-						font-weight: 700;
+						font-weight: 500;
 					}
 					.main__icon{
 						i{
 							position: absolute;
-							bottom: 35px;
-							right: 15px;
+							bottom: 10%;
+							right: 5%;
 							padding: 15px;
 							border: 2px solid #fff;
 							border-radius: 50%;
@@ -441,19 +373,20 @@ section .container{
 					opacity: 1;
 					border-radius: 5px;
 					position: absolute;
-					top: 6px;
-					left: 6px;
-					right: 6px;
-					bottom: 6px;
+					top: 0px;
+					left: 0px;
+					right: 0px;
+					bottom: 0px;
 					background-color: rgba(0,0,0,0.8);
 					h4{
 						transition: all 0.3s ease;
-						transform: translateX(55%);
+						left: 28%;
 					}
 					.main__icon{
 						i{
 							transition: all 0.3s ease;
-							right: 35px;
+							right: 10%;
+							bottom: 10%;
 						}	
 					}
 				}
@@ -470,6 +403,7 @@ section .container{
 	}
 }
 
+
 .lightbox{
 	position: fixed;
 	left: 0;
@@ -478,22 +412,34 @@ section .container{
 	height: 100%;
 	background-color: rgba(0,0,0,0.7);
 	z-index: 13;
-	display: flex;
 	justify-content: center;
 	align-items: center;
-	visibility: hidden;
+	display: none;
 	.lightbox__content{
 		position: relative;
 		transition: all 0.5s ease;
-		img{
-			image-rendering: optimizeQuality;
-			image-rendering: optimizeSpeed;
-			image-rendering: crisp-edges;
-			width: auto;
-			height: auto;
-			max-height: 430px;
-			max-width: 100%;
-			cursor: zoom-out;
+		width: 500px;
+		margin: 0 auto;
+		margin-top: 165px;
+		.lightbox__img__big{
+			height: 350px;
+			overflow: hidden;
+			img{
+				image-rendering: optimizeQuality;
+				image-rendering: optimizeSpeed;
+				image-rendering: crisp-edges;
+				width: auto;
+				height: auto;
+				max-height: 500px;
+				max-width: 100%;
+				display: block;
+				margin: 0 auto;
+			}
+		}
+		.inner__info__portfolio{
+			position: absolute;
+			top: 0;
+			display: none;
 		}
 		.lightbox__text{
 			position: absolute;
@@ -505,7 +451,7 @@ section .container{
 			.lightbox__caption{
 				color: #ffffff;
 				font-size: 18px;
-				font-weight: 500;
+				font-weight: 400;
 				text-transform: capitalize;
 			}
 			.lightbox__counter{
@@ -543,7 +489,7 @@ section .container{
 		}
 		.prev{
 			position: absolute;
-			left: 35px;
+			left: 200px;
 			top: 48%;
 			width: 40px;
 			height: 40px;
@@ -560,7 +506,7 @@ section .container{
 		}
 		.next{
 			position: absolute;
-			right: 35px;
+			right: 200px;
 			top: 48%;
 			width: 40px;
 			height: 40px;
@@ -577,10 +523,182 @@ section .container{
 		}
 	}
 }
-
 .open .lightbox__content{
-	animation: lightboxImg 0.5s ease;
+	animation: lightboxImg 0.12s ease;
 }
-.open{
-	visibility: visible;
+
+.disbl{
+	display: block;
 }
+
+
+.disn{
+	display: none;
+}
+
+.blog{
+	.main__blog-section{
+		margin-top: 60px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		.blog__item{
+			border-radius: 10px;
+			width: 31%;
+			margin-top: 20px;
+			overflow: hidden;
+			.blog__item-inner{
+				position: relative;
+				.blog__item-img{
+					height: 260px;
+					overflow: hidden;
+					img{
+						width: 100%;
+					}
+				}
+				.blog__date{
+					h4{
+						display: inline;
+						color: #fff;
+						font-weight: 700;
+						padding: 5px 10px;
+						background-color: $red;
+						border-radius: 5px;
+					}
+					position: absolute;
+					left: 15px;
+					top: 220px;
+				}
+				.blog__item-text{
+					padding: 25px 15px;
+					.blog__text-caption{
+						font-size: 18px;
+						font-weight: 700;
+						color: #302e4d;
+
+					}
+					.blog__text-desc{
+							
+					}
+				}
+			}
+			.blog__item-inner:hover{
+				.blog__item-img{
+					img{
+						transform: scale(1.05);
+						transition: 0.2s all ease;
+					}
+				}
+			}
+		}
+	}
+}
+.contact{
+	padding-bottom: 100px;
+	.main__contact{
+		padding-top: 50px;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		.contact__item{
+			width: 33%;
+			text-align: center;
+			margin-top: 30px;
+			.iconContact{
+				i{
+					font-size: 50px;
+					color: $red;
+				}
+			}
+			.contact__item-text{
+				margin-top: 30px;
+				h4{
+					font-size: 30px;
+					color: #504e70;
+				}
+				p{
+					color: #312e4d;
+					margin-top: 10px;
+				}
+			}
+		}
+	}
+	.map__contact{
+		margin-top: 40px;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	.contact__info{
+		display: flex;
+		justify-content: space-between;
+		.contact__info-item{
+			width: 50%;
+		}
+	}
+
+}
+.zoom-scale{
+	transform: scale(1.3);
+	transition: 0.2s all ease;
+}
+
+.ymap-container {
+  position: relative;
+  margin: 3em 0 2em 0;
+  overflow: hidden;
+  cursor: pointer;
+  background: url('../img/yandex-before-load-marker.png') #ffffff no-repeat;
+  background-position: center center;
+  background-size: cover;
+  box-shadow: 0 0 2em  0 rgba(0,0,0,.2);
+}
+ 
+/* Блок, в котором появится Яндекс.Карта */
+#map-yandex {
+  position: relative;
+  z-index: 7;
+  width: 100%;
+  height: 20em;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.loader {
+  position: absolute;
+  z-index: 15;
+  top: -100%;
+  left: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  color: #000000;
+  transition: opacity .7s ease;
+  opacity: 0;
+  background-color: rgba(0,0,0,.55);
+}
+ 
+.loader:after,
+.loader:before {
+  box-sizing: border-box;
+}
+ 
+.loader.is-active {
+  top: 0;
+  opacity: 1;
+}
+ 
+.loader-default:after {
+  position: absolute;
+  top: calc(50% - 24px);
+  left: calc(50% - 24px);
+  width: 48px;
+  height: 48px;
+  content: '';
+  animation: rotation 1s linear infinite;
+  border: solid 8px #ffffff;
+  border-left-color: transparent;
+  border-radius: 50%;
+}
+ 
