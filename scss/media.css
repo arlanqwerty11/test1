@@ -4,6 +4,7 @@
 	}
 	.main__content{
 		margin-left: -270px;
+		z-index: 100;
 	}
 }
 @media (max-width: 970px){
