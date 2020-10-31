@@ -336,8 +336,7 @@ nav ul li a.active {
       height: 250px;
       background-color: #909090; }
   .homePage .btn__home-block {
-    position: absolute;
-    bottom: 20px;
+    margin-top: 50px;
     text-align: center;
     left: 0;
     right: 0; }
