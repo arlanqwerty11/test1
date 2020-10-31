@@ -59,3 +59,24 @@
 		width: 100%;
 	}
 }
+
+@media (max-width: 835px){
+	.lightbox__controls .prev{
+		position: absolute;
+		left: 0 !important;	
+	}
+	.lightbox__controls .next{
+		position: absolute;
+		right: 0 !important;
+	}
+}
+@media (max-width: 520px) {
+	.close-lightbox{
+		margin-right: 45% !important;
+		transform: scale(1.5) !important;
+	}
+	.lightbox__content{
+		width: 80% !important;
+		height: auto !important;
+	}
+}

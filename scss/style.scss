@@ -525,6 +525,7 @@ section .container{
 		.lightbox__img__big{
 			height: 350px;
 			overflow: hidden;
+			margin-top: 30%;
 			img{
 				image-rendering: optimizeQuality;
 				image-rendering: optimizeSpeed;
@@ -590,8 +591,8 @@ section .container{
 		}
 		.prev{
 			position: absolute;
-			left: 200px;
-			top: 48%;
+			left: 15%;
+			top: 340px;
 			width: 40px;
 			height: 40px;
 			display: flex;
@@ -607,8 +608,8 @@ section .container{
 		}
 		.next{
 			position: absolute;
-			right: 200px;
-			top: 48%;
+			right: 15%;
+			top: 340px;
 			width: 40px;
 			height: 40px;
 			display: flex;

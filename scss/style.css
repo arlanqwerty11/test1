@@ -597,7 +597,8 @@ section .container {
     margin-top: 165px; }
     .lightbox .lightbox__content .lightbox__img__big {
       height: 350px;
-      overflow: hidden; }
+      overflow: hidden;
+      margin-top: 30%; }
       .lightbox .lightbox__content .lightbox__img__big img {
         image-rendering: optimizeQuality;
         image-rendering: optimizeSpeed;
@@ -663,8 +664,8 @@ section .container {
     left: 2px; }
   .lightbox .lightbox__controls .prev {
     position: absolute;
-    left: 200px;
-    top: 48%;
+    left: 15%;
+    top: 340px;
     width: 40px;
     height: 40px;
     display: -webkit-box;
@@ -683,8 +684,8 @@ section .container {
               transform: translateX(-25%); }
   .lightbox .lightbox__controls .next {
     position: absolute;
-    right: 200px;
-    top: 48%;
+    right: 15%;
+    top: 340px;
     width: 40px;
     height: 40px;
     display: -webkit-box;
