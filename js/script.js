@@ -234,7 +234,36 @@ $(document).ready(function(){
 	$(".slider").slick({
 		infinite: true,
   		slidesToShow: 2,
-  		slidesToScroll: 1
+  		slidesToScroll: 1,
+  		responsive: [
+	    	{
+		      	breakpoint: 1199,
+		     	settings: {
+			      	slidesToShow: 1,
+			      	slidesToScroll: 1,
+			      	infinite: true
+			    }
+	      	}
+	    ]
+	});
+	const navToggleBtn = document.querySelector(".nav__burger"),
+		  asideToggle = document.querySelector(".aside");
+
+	navToggleBtn.addEventListener("click", function(){
+		navAsideToggle();
+	});
+
+	function navAsideToggle(){
+		asideToggle.classList.toggle("open");
+		for(let j = 0; j<totalNavlist; j++){
+			SectionAll[j].classList.toggle("open");
+		}
+	}
+	window.addEventListener("load",function(){
+		document.querySelector(".preloader").classList.add("opacity-preloader");
+		setTimeout(function(){
+			document.querySelector(".preloader").style.display = "none";
+		},300);
 	});
 
 });
